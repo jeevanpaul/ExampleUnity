@@ -17,7 +17,7 @@ class BuzzerData {
 class SwarmAI extends MonoBehaviour {
 	public var buzzers : MovementMotor[];
 	public var zapDist : float = 2.3;
-	public var slowDownDist : float = 1.1;
+	public var slowDownDist : float = 1.0;
 	public var rechargeDist : float = 5.5;
 	public var chargeTime : float = 6.0;
 	public var visibleChargeFraction : float = 0.8;
